@@ -9,12 +9,13 @@ function enoughBeds(numAdults, numKids, numBeds) {
     //add the to the numbers of kiddos
     const totalBedsNeeded = adultBeds + numKids
     // is that result <= number of beds 
+   return(totalBedsNeeded <= numBeds) // simplify the function
+   
     if(totalBedsNeeded <= numBeds) {
         return true 
-    } else {
+    } 
         return false 
-    }
 }
-
+// you do not need the else because it will return false either way 
 const canWeFit = enoughBeds(8, 4, 5)
 console.log("Can we fit?", canWeFit)
