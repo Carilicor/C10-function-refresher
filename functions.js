@@ -10,7 +10,7 @@ function enoughBeds(numAdults, numKids, numBeds) {
     const totalBedsNeeded = adultBeds + numKids
     // is that result <= number of beds 
    return(totalBedsNeeded <= numBeds) // simplify the function
-   
+   //the line above is the same as the lines below 
     if(totalBedsNeeded <= numBeds) {
         return true 
     } 
