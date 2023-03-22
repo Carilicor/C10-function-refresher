@@ -12,6 +12,10 @@ function getSumTotal(firstNumber, secondNumber) {
     console.log(result);
 }
 
+function makePie(quantity) {
+    
+}
+
 //invoke a function 
 message("Cari");
 message("cat who are you");
