@@ -15,3 +15,6 @@ function enoughBeds(numAdults, numKids, numBeds) {
         return false 
     }
 }
+
+const canWeFit = enoughBeds(8, 4, 5)
+console.log("Can we fit?", canWeFit)
